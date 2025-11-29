@@ -48,7 +48,7 @@ The master script that:
 4. Computes ICC reliability  
 5. Generates **all five figures** and **Table 1** from the paper:
 
-- **Figure 1:** Histogram of arousal ratings  
+- **Figure 1:** Histogram of average ratings  
 - **Figure 2:** Histogram of optimal category numbers selected across iterations  
 - **Figure 3:** Evaluation of cluster numbers by repeatedly clustering the similarity matrix  
 - **Figure 4:** t-SNE embedding of sounds  
