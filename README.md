@@ -12,7 +12,7 @@ The workflow consists of:
 
 ## Repository Contents
 
-### 1. `textAnalysis.m (Function)` [link text](#Functions/textanalysism)
+### 1. `textAnalysis.m (Function)` (#Functions/textanalysism)
 A MATLAB function that performs **text cleaning**, **feature extraction**, and **similarity-based clustering** using participant-generated labels.  
 It runs Step 1 of the algorithm by iteratively clustering text embeddings and selecting the best solution per iteration based on silhouette scores.
 
