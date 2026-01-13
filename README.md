@@ -12,7 +12,7 @@ The workflow consists of:
 
 ## Repository Contents
 
-### 1. [textAnalysis.m](Function\textAnalysis) 
+### 1. [textAnalysis.m](Function\textAnalysis.m) 
 A MATLAB function that performs **text cleaning**, **feature extraction**, and **similarity-based clustering** using participant-generated labels.  
 It runs Step 1 of the algorithm by iteratively clustering text embeddings and selecting the best solution per iteration based on silhouette scores.
 
@@ -28,7 +28,7 @@ The function supports:
 
 ---
 
-### 2. `ICC2K.m (Function)`
+### 2. [ICC2K.m (Function)](Function\ICC2k.m) 
 MATLAB script performing **inter-rater reliability analysis** on participants’ rating data.
 
 It fits a linear mixed-effects model using sound and participant as random effects, allowing estimation of variance components and calculation of:
@@ -39,7 +39,7 @@ This script corresponds to the reliability analysis reported in the paper.
 
 ---
 
-### 3. `main.m`
+### 3. [main.m](main.m)
 The master script that:
 
 1. Loads and prepares all cleaned data  
@@ -59,7 +59,7 @@ This file is the main entry point for reproducing the full analysis pipeline.
 
 ---
 
-## Data Files
+## [Data Files](Data/)
 
 Four `.mat` files are included in the Data directory:
 
@@ -71,7 +71,7 @@ These are required to run `main.m`.
 
 ---
 
-## Results Files
+## [Results Files](Results/)
 
 Two `.mat` files are included in the Results directory:
 
