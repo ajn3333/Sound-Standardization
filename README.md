@@ -12,7 +12,7 @@ The workflow consists of:
 
 ## Repository Contents
 
-### 1. [textAnalysis.m](Function\textAnalysis.m) 
+### 1. [textAnalysis.m](Function/textAnalysis.m) 
 A MATLAB function that performs **text cleaning**, **feature extraction**, and **similarity-based clustering** using participant-generated labels.  
 It runs Step 1 of the algorithm by iteratively clustering text embeddings and selecting the best solution per iteration based on silhouette scores.
 
@@ -28,7 +28,7 @@ The function supports:
 
 ---
 
-### 2. [ICC2K.m (Function)](Function\ICC2k.m) 
+### 2. [ICC2K.m (Function)](Function/ICC2k.m) 
 MATLAB script performing **inter-rater reliability analysis** on participants’ rating data.
 
 It fits a linear mixed-effects model using sound and participant as random effects, allowing estimation of variance components and calculation of:
