@@ -111,9 +111,7 @@ Two `.mat` files are included in the Results directory:
 
 ## Citation
 
-If you use this code or adapt it for your own research, please cite:
-
-**Insert paper here**
+If you use this code or adapt it for your own research, please cite our paper.
 
 ---
 
