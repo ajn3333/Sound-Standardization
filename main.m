@@ -14,8 +14,8 @@ normr = normalize(meanr); % z-scores of recognition
 %% Running the reliability analysis
 load("Data\Ratings_Long.mat")
 
-ICC2K(Tstartlingness) % ICC for startlingness data
-ICC2K(Tvalence) % ICC for valence data
+ICC2K(TStartlingness) % ICC for startlingness data
+ICC2K(TValence) % ICC for valence data
 ICC2K(TRecognition)% ICC for recognition data
 
 
