@@ -3,19 +3,19 @@
 
 % Loading the clean and concatenated data
 load("Data\Ratings.mat") 
-meana = mean(arousal_all, 'omitnan'); % average arousal rating for each sound
-meane = mean(emotionality_all, 'omitnan'); % average emotionality rating for each sound
+meana = mean(startlingness_all, 'omitnan'); % average startlingness rating for each sound
+meane = mean(valence_all, 'omitnan'); % average valence rating for each sound
 meanr = mean(recognition_all, 'omitnan'); % average recognition rating for each sound
-norma = normalize(meana); % z-scores of arousal
-norme = normalize(meane); % z-scores of emotionality
+norma = normalize(meana); % z-scores of startlingness
+norme = normalize(meane); % z-scores of valence
 normr = normalize(meanr); % z-scores of recognition
 
 
 %% Running the reliability analysis
 load("Data\Ratings_Long.mat")
 
-ICC2K(TArousal) % ICC for arousal data
-ICC2K(TEmotionality) % ICC for emotionality data
+ICC2K(Tstartlingness) % ICC for startlingness data
+ICC2K(Tvalence) % ICC for valence data
 ICC2K(TRecognition)% ICC for recognition data
 
 
